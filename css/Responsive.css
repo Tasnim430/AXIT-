@@ -1,0 +1,719 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    /* *************************************************************************************************************************
+    *******************************************************************************************************************************************
+    *************************************************************************************** */
+    .social-icon a i {
+        font-size: 44px;
+        padding: 0px 20px;
+    }
+    .customers{
+        height: auto;
+    }
+  }
+
+
+    /* 
+    ##Device = Nest hub
+    ##Screen = B/w 1024px to 600px
+  */
+  
+  @media (min-width: 1024px) and (max-width: 600px){
+    /* css */
+        /* *************************************************************************************************************************
+    *******************************************************************************************************************************************
+    *************************************************************************************** */
+    .offset-1 {
+        /* margin-left: 8.33333333%; */
+        margin: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .banner .row{
+        flex-direction: column;
+    }
+    .banner .row .col-md-7{
+        width: auto;
+        padding: 16px 0px;
+    }
+    .offset-1 {
+        margin-left: 0;
+    }
+    .header-icon i{
+        color: white !important;
+    }
+    .banner-text {
+        height: auto;
+        width: auto;
+        padding: 39px 0px;
+        text-align: center;
+    }
+    .banner-form {
+        height: auto;
+    }
+    .card{
+        margin: 0px 0px 45px 170px;
+    }
+    .banner-line {
+        margin: 35px 0px;
+        margin: auto;
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+    .banner-text h1 {
+        font-size: 56px;
+        text-align: left;
+    }
+    .banner{
+        height: auto;
+    }
+    .banner-text h4 {
+        width: auto;
+        font-size: 34px;
+        padding-top: 21px;
+        text-align: center;
+        line-height: 56px;
+    }
+    .banner-text p {
+    width: auto;
+    text-align: center;
+    color: #bdbdbd;
+    padding-top: 9px;
+    }
+    .banner-text button{
+    margin-top: 11px;
+    text-align: center;
+    }
+    .social-media p {
+        width: auto;
+    }
+    .brand{
+        height: auto;
+    }
+    .social-icon {
+        text-align: center;
+        padding: 8px 0px;
+    }
+    .social-icon a i {
+        width: auto;
+        height: auto;
+        font-size: 42px;
+        padding: 0px 10px;
+        line-height: 127px;
+    }
+    .tabs {
+        margin-left: 53px;
+        text-align: center;
+    }
+    .tab-style ul {
+        padding: 0;
+    }
+    .tabs h4 {
+        margin-bottom: 17px;
+        font-size: 16px;
+        text-align: left;
+    }
+    .tabs p {
+        width: auto;
+        text-align: center;
+        padding-bottom: 7px;
+        padding: 8px 4px;
+    }
+    .features2-img a .img-fluid {
+        width: auto !important;
+    }
+    .massage textarea{
+        width: 100%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+
+    .header-icon i{
+        
+        color: white !important;
+    }
+    .banner-text {
+        height: auto;
+        width: auto;
+        padding: 39px 0px;
+        text-align: center;
+    }
+    .banner-text h1 {
+        font-size: 56px;
+        text-align: left;
+    }
+    .banner{
+        height: auto;
+    }
+    .banner-text h4{
+        width: auto;
+        font-size: 23px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .banner-text p {
+    width: auto;
+    text-align: center;
+    color: #bdbdbd;
+    padding-top: 9px;
+    }
+    .banner-text button{
+    margin-top: 11px;
+    text-align: center;
+    }
+    .social-icon a i{
+        height: auto;
+        width: auto;
+        font-size: 39px;
+        padding: 0px;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .header-icon i{
+        
+        color: white !important;
+    }
+    .banner-text {
+        height: auto;
+        width: auto;
+        padding: 39px 0px;
+        text-align: center;
+    }
+    .banner-text h1 {
+        font-size: 56px;
+        text-align: left;
+    }
+    .banner{
+        height: auto;
+    }
+    .banner-text h4{
+        width: auto;
+        font-size: 28px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .banner-text p {
+    width: auto;
+    text-align: center;
+    color: #bdbdbd;
+    padding-top: 9px;
+    }
+    .banner-text button{
+    margin-top: 11px;
+    text-align: center;
+    }
+    .offset-1{
+        width: auto;
+        margin-left: 90px;
+        margin-bottom: 10px;
+    }
+    .banner-form {
+        height: auto;
+        display: block;
+    }
+    .banner-form .card-footer {
+        padding: 0px;
+    }
+    .social-media p{
+        width: auto;
+    }
+    .social-icon {
+        text-align: center;
+        padding: 8px 0px;
+    }
+    .social-icon a i {
+        width: auto;
+        height: auto;
+        font-size: 32px;
+        padding: 0px 15px;
+    }
+    .banner-line{
+        margin: auto;
+        margin-bottom: 21px;
+        margin-top: 19px;
+    
+    }
+    .brand{
+        height: auto;
+    }
+    .tab-style ul {
+        display: flex;
+        padding: 0px 12px;
+    }
+    .tab-style ul li:first-child {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    .tab-style ul li:last-child {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 5px;
+    }
+    .tab-style ul li {
+        margin-left: 15px;
+        width: auto;
+        height: auto;
+        padding: 0px 47px;
+    }
+    .tabs h4 {
+        font-size: 27px;
+        margin-bottom: 21px;
+        margin-top: 21px;
+        text-align: center;
+        width: auto;
+    }
+    .tabs p {
+        text-align: center;
+        width: auto;
+    }
+    .tabs {
+        text-align: center;
+        padding-bottom: 43px;
+    }
+    .features2 .row{
+        flex-direction: column-reverse;
+
+    }
+    .features2-title .row{
+        flex-direction: column;
+    }
+    .features2-tit .row{
+        flex-direction: column;
+    }
+    .features2 {
+        width: auto;
+        text-align: center;
+    }
+    .features2-line {
+        margin: auto;
+        margin-bottom: 27px;
+        margin-top: 27px;
+    }
+    .features2-text p {
+        width: auto;
+    }
+    .features2-text {
+        margin: 0px 31px;
+    }
+    .features2-icon a i {
+        margin: auto;
+    }
+    .features2-icon {
+        margin-bottom: 26px;
+    }
+    .features2-cloud a i{
+        margin: auto;
+    }
+    .features2-cloud{
+        margin-bottom: 26px;
+    }
+    .feature3-text {
+    text-align: center;
+    margin: 0px 1px;
+    }
+
+    .feature3-line {
+    margin: auto;
+    margin-bottom: 27px;
+    margin-top: 27px;
+    }
+    .feature3-img {
+        margin-top: 45px;
+    }
+
+
+    .pricing h2 {
+    font-size: 38px;
+    }
+    .pricing p {
+        padding: 0px 24px;
+    }
+    .pric-a h2 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .custm h2 {
+        font-size: 27px;
+    }
+    .custm h2 {
+        font-size: 27px;
+        margin-top: 47px;
+    }
+    .custm p {
+        padding: 9px 15px;
+    }
+    .custm button {
+        width: 134px;
+        height: 45px;
+        color: white;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .custm-line {
+        margin: 20px auto;
+    }
+    .contact-me h1{
+        font-size: 30px;
+    }
+    .contact-me p{
+        padding: 0px;
+    }
+    .customers{
+        height: auto;
+    }
+    .awesome h2 {
+        font-size: 45px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .form-style{
+        display: block;
+    }
+
+
+    .form-a input {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .massage textarea{
+        margin-left: 0px;
+    }
+    .footer-icon a i {
+        width: auto;
+        height: auto;
+        font-size: 29px;
+        padding: 0px 7px;
+    }
+    .footer-icon {
+        text-align: center;
+        padding-top: 44px;
+        padding-bottom: 16px;
+    }
+    .last-footer {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .header-icon i{
+        
+        color: white !important;
+    }
+    .banner-text {
+        height: auto;
+        width: auto;
+        padding: 39px 0px;
+        text-align: center;
+    }
+    .banner-text h1 {
+        font-size: 56px;
+        text-align: left;
+    }
+    .banner{
+        height: auto;
+    }
+    .banner-text h4{
+        width: auto;
+        font-size: 23px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .banner-text p {
+    width: auto;
+    text-align: center;
+    color: #bdbdbd;
+    padding-top: 9px;
+    }
+    .banner-text button{
+    margin-top: 11px;
+    text-align: center;
+    }
+    .offset-1{
+        width: auto;
+        margin: 0px 0px 31px 0px;
+    }
+    .banner-form {
+        height: auto;
+        display: block;
+    }
+    .banner-form .card-footer {
+        padding: 0px;
+    }
+    .social-media p{
+        width: auto;
+    }
+    .social-icon a i:hover {
+        color: #cccccc;
+        border-radius: 0%;
+        background: none;
+    }
+    .social-icon a i {
+        width: auto;
+        height: auto;
+        font-size: 29px;
+        padding: 0px 7px;
+
+    }
+    .banner-line{
+        margin: auto;
+        margin-bottom: 21px;
+        margin-top: 19px;
+    
+    }
+    .brand{
+        height: auto;
+    }
+    .tab-style ul {
+        display: flex;
+        padding: 0px 12px;
+    }
+    .tab-style ul li:first-child {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    .tab-style ul li:last-child {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 5px;
+    }
+    .tab-style ul li{
+    margin-left: 7px;
+    width: auto;
+    height: auto;
+    padding: 0px 23px;
+    }
+    .tabs h4 {
+        font-size: 21px;
+        font-weight: 700;
+        margin-bottom: 21px;
+        margin-top: 16px;
+        text-align: center;
+        width: auto;
+    }
+    .tabs p {
+        text-align: center;
+        width: auto;
+    }
+    .tabs {
+        text-align: center;
+        padding-bottom: 43px;
+    }
+    .features2 .row{
+        flex-direction: column-reverse;
+
+    }
+    .features2-title .row{
+        flex-direction: column;
+    }
+    .features2-tit .row{
+        flex-direction: column;
+    }
+    .features2 {
+        width: auto;
+        text-align: center;
+    }
+    .features2-line {
+        margin: auto;
+        margin-bottom: 27px;
+        margin-top: 27px;
+    }
+    .features2-text p {
+        width: auto;
+    }
+    .features2-text {
+        margin: 0px 31px;
+    }
+    .features2-icon a i {
+        margin: auto;
+    }
+    .features2-icon {
+        margin-bottom: 26px;
+    }
+    .features2-cloud a i{
+        margin: auto;
+    }
+    .features2-cloud{
+        margin-bottom: 26px;
+    }
+    .feature3-text {
+    text-align: center;
+    margin: 0px 1px;
+    }
+
+    .feature3-line {
+    margin: auto;
+    margin-bottom: 27px;
+    margin-top: 27px;
+    }
+    .feature3-img {
+        margin-top: 45px;
+    }
+
+
+    .pricing h2 {
+    font-size: 38px;
+    }
+    .pricing p {
+        padding: 0px 24px;
+    }
+    .pric-a h2 {
+        font-weight: 600;
+        font-size: 26px;
+    }
+    .custm h2 {
+        font-size: 27px;
+    }
+    .custm h2 {
+        font-size: 27px;
+        margin-top: 47px;
+    }
+    .custm p {
+        padding: 9px 15px;
+    }
+    .custm button {
+        width: 134px;
+        height: 45px;
+        color: white;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .custm-line {
+        margin: 20px auto;
+    }
+    .contact-me h1{
+        font-size: 30px;
+    }
+    .contact-me p{
+        padding: 0px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .form-style{
+        display: block;
+    }
+
+
+    .form-a input {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .massage textarea {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .footer-icon a i {
+        width: auto;
+        height: auto;
+        font-size: 29px;
+        padding: 0px 7px;
+    }
+    .footer-icon {
+        text-align: center;
+        padding-top: 44px;
+        padding-bottom: 16px;
+    }
+    .last-footer {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .awesome h2 {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+
+
+  }
